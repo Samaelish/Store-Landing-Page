@@ -196,10 +196,6 @@ img
 {
     max-width: 100%;
 }
-.testimonial
-{
-    background: #f7f7f7;
-}
 .testimonial .content
 {
     display: flex;
@@ -238,52 +234,16 @@ img
 {
     background: #111111;
 }
-.formBx
+.mapBx
 {
-    min-width: 60%;
+    width: 100%;
 }
-.formBx form
-{
-    display: flex;
-    flex-direction: column;
-}
-.formBx form h3,
 .contactInfo h3
 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-}
-.formBx form input,
-.formBx form textarea
-{
-    margin-bottom: 20px;
-    padding: 15px;
-    font-size: 16px;
-    background: transparent;
-    border: none;
-    outline: none;
-    background: #222;
-    color: #ffffff;
-    resize: none;
-}
-.formBx form textarea
-{
-    min-height: 200px;
-}
-.formBx form input::placeholder,
-.formBx form textarea::placeholder
-{
-    color: #999999;
-}
-.formBx form input[type="submit"]
-{
-    max-width: 100px;
-    background: #2196f3;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 .contactInfo
 {
@@ -435,19 +395,14 @@ img
         width: 100%;
         padding: 10px;
     }
-    .testimonial .content .testimonialBx 
-    {
-        max-width: calc(100% - 20px);
-        padding: 40px 20px;
-        margin: 10px;
-        background: #2196f3;
-    }
-    .testimonial .content .testimonialBx h3 {
-        margin-top: 20px;
-    }
     .contactInfo
     {
         margin: 20px 0;
+    }
+    .mapBx
+    {
+        max-width: 80%;
+        margin: auto;
     }
 }
 
